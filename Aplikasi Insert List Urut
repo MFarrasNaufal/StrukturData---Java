@@ -1,0 +1,23 @@
+package strukturdata;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class StrukturData {
+    public static void main (String[]args) {
+        List daftarAngka = new ArrayList();
+        daftarAngka.add ("1");
+        daftarAngka.add ("18");
+        daftarAngka.add ("36");
+        daftarAngka.add ("00");
+        daftarAngka.add ("13");
+        
+        System.out.println("Sebeum Diurutkan");
+        System.out.println(daftarAngka);
+        
+        Collections.sort(daftarAngka);
+        System.out.println("Setelah Diurutkan");
+        System.out.println(daftarAngka);
+    }
+}
